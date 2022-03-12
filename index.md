@@ -6,7 +6,7 @@ In this, paper we present domain-specific
 
 | GroundTruth | Generated Speech | Text |
 | ----------- | ---------------- | ---- |
-|      ![audiofile](audiosamples/SGuniverse_09876_gt.wav)       |                  |      |
+|   <audio src="./audiosamples/SGuniverse_09876_gt.wav" type="audio/wav" controls="" preload=""></audio>   |                  |      |
 |             |                  |      |
 |             |                  |      |
 |             |                  |      |
