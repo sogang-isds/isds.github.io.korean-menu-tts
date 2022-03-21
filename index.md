@@ -19,4 +19,6 @@ In this paper, we present the korean-menu-TTS system using conformer-based FastS
 |   <audio src="./samples/gt/SogangSpeech_22969.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./samples/fs/SogangSpeech_22969.wav" type="audio/wav" controls="" preload=""></audio>               |  <audio src="./samples/confs/SogangSpeech_22969.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="samples/text/SogangSpeech_22969.txt" width="400" height="80">  |
 |   <audio src="./samples/gt/SogangSpeech_22999.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./samples/fs/SogangSpeech_22999.wav" type="audio/wav" controls="" preload=""></audio>               |  <audio src="./samples/confs/SogangSpeech_22999.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="samples/text/SogangSpeech_22999.txt" width="400" height="80">  |
 ### Observations
-
+* 한국어 음성합성에서의 Conformer의 기여도를 확인하기 위한 실험
+* Transformer 기반의 FastSpeech2와 Conformer 기반의 FastSpeech2를 동일한 데이터셋을 훈련 후, 동일한 Vocoder(ParallelWave Gan)을 이용하여 합성음 생성
+*  Transformer 기반의 FastSpeech2보다 Conformer 기반의 FastSpeech2가 더 좋은 품질의 합성음을 생성하는 것을 확인
