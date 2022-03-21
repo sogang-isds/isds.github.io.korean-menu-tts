@@ -6,8 +6,8 @@ In this paper, we present the korean-menu-TTS system using conformer-based FastS
 
 ### Generated Speech Samples
 
-| GroundTruth | FastSpeech2 | Conformer-based FastSpeech2 | Text |
-| ----------- | ---------------- | ---------------- | ---- |
+| GroundTruth | FastSpeech2      | Conformer-based FastSpeech2 | Text |
+| ----------- | ---------------- | --------------------------- | ---- |
 |   <audio src="./samples/gt/SGuniverse_09879.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./samples/fs/SGuniverse_09879.wav" type="audio/wav" controls="" preload=""></audio>               |  <audio src="./samples/confs/SGuniverse_09879.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="samples/text/SGuniverse_9879.txt" width="400" height="80">  |
 |   <audio src="./samples/gt/SGuniverse_09904.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./samples/fs/SGuniverse_09904.wav" type="audio/wav" controls="" preload=""></audio>               |  <audio src="./samples/confs/SGuniverse_09904.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="samples/text/SGuniverse_9904.txt" width="400" height="80">  |
 |   <audio src="./samples/gt/SGuniverse_09918.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./samples/fs/SGuniverse_09918.wav" type="audio/wav" controls="" preload=""></audio>               |  <audio src="./samples/confs/SGuniverse_09918.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="samples/text/SGuniverse_9918.txt" width="400" height="80">  |
