@@ -4,25 +4,15 @@
 
 In this paper, we present the korean-menu-TTS system using conformer-based FastSpeech2. Conformer is the convolution-augmented transformer, which was originally proposed in Speech Recognition. Combining two different structures, the Conformer extracts better both local and global features. It comprises two half Feed Forward module at the front and the end, sandwiching the Multi-Head Self-Attention module and Convolution module. We introduce the Conformer in Korean TTS, as we know it works well in Korean Speech Recognition. For comparison between transformer-based TTS model and Conformer-based one, we train FastSpeech2 and Conformer-based FastSpeech2. We collected a phoneme-balanced dataset and used this for training our models. As a result of generating a synthesized sound using ParallelWave Gan, the Conformer-based FastSpeech2 achieved superior performance of MOS 4.06. We confirm that the model performance improved when the same structure was changed from transformer to Conformer in the Korean TTS.
 
-### General Speech Samples
+### Generated Speech Samples
 
-| GroundTruth | Generated Speech | Text |
-| ----------- | ---------------- | ---- |
+| GroundTruth | FastSpeech2 | Conformer-based FastSpeech2 | Text |
+| ----------- | ---------------- | ---------------- | ---- |
 |   <audio src="./audiosamples/SGuniverse_09886_gt.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./audiosamples/SGuniverse_09886_confs2.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="audiosamples/SGuniverse_9886_text.txt" width="400" height="80">  |
 | <audio src="./audiosamples/SGuniverse_09918_gt.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./audiosamples/SGuniverse_09918_confs2.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="audiosamples/SGuniverse_9918_text.txt" width="400" height="80">      |
 |        <audio src="./audiosamples/SGuniverse_09946_gt.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./audiosamples/SGuniverse_09946_confs2.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="audiosamples/SGuniverse_9946_text.txt" width="400" height="80">   |
 |         <audio src="./audiosamples/SGuniverse_09954_gt.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./audiosamples/SGuniverse_09954_confs2.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="audiosamples/SGuniverse_9954_text.txt" width="400" height="80">    |
 |         <audio src="./audiosamples/SGuniverse_09992_gt.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./audiosamples/SGuniverse_09992_confs2.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="audiosamples/SGuniverse_9992_text.txt" width="400" height="80">    |
-
-### Menu Speech Samples 
-
-| GroundTruth | Generated Speech | Text |
-| ----------- | ---------------- | ---- |
-|         <audio src="./audiosamples/SogangSpeech_22912_gt.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./audiosamples/SogangSpeech_22912_confs2.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="audiosamples/SogangSpeech_22912_text.txt" width="400" height="80">    |
-|         <audio src="./audiosamples/SogangSpeech_22919_gt.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./audiosamples/SogangSpeech_22919_confs2.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="audiosamples/SogangSpeech_22919_text.txt" width="400" height="80">    |
-|         <audio src="./audiosamples/SogangSpeech_22929_gt.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./audiosamples/SogangSpeech_22929_confs2.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="audiosamples/SogangSpeech_22929_text.txt" width="400" height="80">    |
-|         <audio src="./audiosamples/SogangSpeech_22941_gt.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./audiosamples/SogangSpeech_22941_confs2.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="audiosamples/SogangSpeech_22941_text.txt" width="400" height="80">    |
-|         <audio src="./audiosamples/SogangSpeech_22947_gt.wav" type="audio/wav" controls="" preload=""></audio>   |   <audio src="./audiosamples/SogangSpeech_22947_confs2.wav" type="audio/wav" controls="" preload=""></audio>               | <embed src="audiosamples/SogangSpeech_22947_text.txt" width="400" height="80">    |
 
 ### Observations
 
